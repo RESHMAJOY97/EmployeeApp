@@ -1,3 +1,7 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:background="#CCFF90"
@@ -16,6 +20,7 @@
         android:layout_height="wrap_content"/>
 
    <EditText
+       android:id="@+id/code"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"/>
     <TextView
@@ -24,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -32,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/place"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -40,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/desig"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -48,10 +56,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/cmpny"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:onClick="submit"
         android:text="SUBMIT"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </LinearLayout>
+</ScrollView>
